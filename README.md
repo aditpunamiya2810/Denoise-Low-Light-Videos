@@ -14,9 +14,9 @@ Extracts frames from a given low-light video.
 # Model Architecture
   The Overcomplete Autoencoder has:
 
-    An encoder that maps noisy input to a higher-dimensional feature space.
+  An encoder that maps noisy input to a higher-dimensional feature space.
 
-    A decoder that reconstructs the denoised frame.
+  A decoder that reconstructs the denoised frame.
 
 Key characteristics:
 
