@@ -5,21 +5,21 @@ We use deep learning to reconstruct cleaner frames, frame-by-frame, and reassemb
 ✨ Features
 Extracts frames from a given low-light video.
 
-Denoises each frame using a trained overcomplete autoencoder.
+  Denoises each frame using a trained overcomplete autoencoder.
 
-Reconstructs the video from the denoised frames.
+  Reconstructs the video from the denoised frames.
 
-Modular code structure for easy customization and extension.
+  Modular code structure for easy customization and extension.
 
-Model Architecture
-The Overcomplete Autoencoder has:
+# Model Architecture
+  The Overcomplete Autoencoder has:
 
-An encoder that maps noisy input to a higher-dimensional feature space.
+    An encoder that maps noisy input to a higher-dimensional feature space.
 
-A decoder that reconstructs the denoised frame.
+    A decoder that reconstructs the denoised frame.
 
 Key characteristics:
 
-More neurons in the hidden layers than input dimension.
+  More neurons in the hidden layers than input dimension.
 
-Relu activations and skip connections to retain details.
+  Relu activations and skip connections to retain details.
